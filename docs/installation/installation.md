@@ -6,3 +6,7 @@ To use the Oasis Notifications system in your React application, install the lib
 npm install oasis-toast
 ```
 
+## Prerequisites
+
+- React 16.8+ 
+- Tailwind CSS 3.0+

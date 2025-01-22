@@ -1,14 +1,34 @@
-# Toast Notifications Library
+# Oasis Notifications Library
 
 A lightweight, customizable toast notifications system for React applications.
+
+## Introduction
+
+Oasis provides an elegant and user-friendly way to display notifications in your React applications. Built with TypeScript and styled with TailwindCSS, it offers a seamless integration experience with modern React applications.
+
+Key features:
+- 🎯 Four distinct toast types (success, error, info, warning)
+- 🎨 Beautiful, customizable designs
+- ⚡ Zero-configuration setup
+- 🔧 TypeScript support out of the box
+- 📱 Fully responsive
+- 🎉 Auto-dismiss functionality
+
+> **Important**: This library is designed to work exclusively with Tailwind CSS. Make sure your project has Tailwind CSS installed and configured before using this library.
+
 
 ## Installation
 
 To use the Toast Notifications system in your React application, install the library using npm:
 
 ```bash
-npm install toast-notifications-library
+npm install oasis-toast
 ```
+
+## Prerequisites
+
+- React 16.8+ 
+- Tailwind CSS 3.0+
 
 ## Setup
 
@@ -78,7 +98,7 @@ export default SomeComponent;
 
 ## Toast Types
 
-There are four types of toasts available:
+There are four types of toasts available, each with its own distinct visual style:
 
 | Type    | Color  | Purpose                                      |
 |---------|--------|----------------------------------------------|
@@ -88,6 +108,31 @@ There are four types of toasts available:
 | Warning | Yellow | Displays a warning message                   |
 
 Each toast type is visually distinct, making it easy to convey the message's importance to the user.
+
+
+### Success Toast
+![Success Toast](/docs/img/success.png)
+- Used for successful operations
+- Green color scheme
+- Includes a checkmark icon
+
+### Error Toast
+![Error Toast](/docs/img/error.png)
+- Used for error messages
+- Red color scheme
+- Includes an X icon
+
+### Info Toast
+![Info Toast](/docs/img/info.png)
+- Used for informational messages
+- Blue color scheme
+- Includes an information icon
+
+### Warning Toast
+![Warning Toast](/docs/img/warning.png)
+- Used for warning messages
+- Yellow color scheme
+- Includes an exclamation icon
 
 ## TailwindCSS Configuration
 

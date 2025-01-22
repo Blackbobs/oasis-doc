@@ -66,7 +66,7 @@ export default SomeComponent;
 
 ## Toast Types
 
-There are four types of toasts available:
+There are four types of toasts available, each with its own distinct visual style:
 
 | Type    | Color  | Purpose                                      |
 |---------|--------|----------------------------------------------|
@@ -76,6 +76,31 @@ There are four types of toasts available:
 | Warning | Yellow | Displays a warning message                   |
 
 Each toast type is visually distinct, making it easy to convey the message's importance to the user.
+
+
+### Success Toast
+![Success Toast](/docs/img/success.png)
+- Used for successful operations
+- Green color scheme
+- Includes a checkmark icon
+
+### Error Toast
+![Error Toast](/docs/img/error.png)
+- Used for error messages
+- Red color scheme
+- Includes an X icon
+
+### Info Toast
+![Info Toast](/docs/img/info.png)
+- Used for informational messages
+- Blue color scheme
+- Includes an information icon
+
+### Warning Toast
+![Warning Toast](/docs/img/warning.png)
+- Used for warning messages
+- Yellow color scheme
+- Includes an exclamation icon
 
 ## TailwindCSS Configuration
 
