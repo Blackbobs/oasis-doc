@@ -6,7 +6,7 @@ To enable toast notifications throughout your app, wrap your root component with
 
 ```tsx
 import React from 'react';
-import { ToastProvider } from 'oasis';
+import { ToastProvider } from 'oasis-toast';
 import App from './App';
 
 const Root: React.FC = () => (
@@ -32,7 +32,7 @@ You can trigger toast notifications using the following helper functions:
 ### Example
 
 ```tsx
-import { successToast, errorToast, infoToast, warningToast } from 'oasis';
+import { successToast, errorToast, infoToast, warningToast } from 'oasis-toast';
 
 const SomeComponent: React.FC = () => {
   const handleSuccess = () => {
@@ -112,7 +112,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    './node_modules/oasis/**/*.{js,ts,jsx,tsx}'  // Add this line
+    './node_modules/oasis-toast/**/*.{js,ts,jsx,tsx}'  // Add this line
   ],
   theme: {
     extend: {},
@@ -121,7 +121,7 @@ export default {
 }
 ```
 
-> **Note**: It's essential to add the path `./node_modules/oasis/**/*.{js,ts,jsx,tsx}` to ensure that TailwindCSS scans the library's components and applies styles properly.
+> **Note**: It's essential to add the path `./node_modules/oasis-toast/**/*.{js,ts,jsx,tsx}` to ensure that TailwindCSS scans the library's components and applies styles properly.
 
 ## Customization
 

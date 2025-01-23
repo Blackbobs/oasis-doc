@@ -38,7 +38,7 @@ To enable toast notifications throughout your app, wrap your root component with
 
 ```tsx
 import React from 'react';
-import { ToastProvider } from 'toast-notifications-library';
+import { ToastProvider } from 'oasis-toast';
 import App from './App';
 
 const Root: React.FC = () => (
@@ -64,7 +64,7 @@ You can trigger toast notifications using the following helper functions:
 ### Example
 
 ```tsx
-import { successToast, errorToast, infoToast, warningToast } from 'toast-notifications-library';
+import { successToast, errorToast, infoToast, warningToast } from 'oasis-toast';
 
 const SomeComponent: React.FC = () => {
   const handleSuccess = () => {
@@ -111,25 +111,25 @@ Each toast type is visually distinct, making it easy to convey the message's imp
 
 
 ### Success Toast
-![Success Toast](/img/success.png)
+![Success Toast](/static/img/success.png)
 - Used for successful operations
 - Green color scheme
 - Includes a checkmark icon
 
 ### Error Toast
-![Error Toast](/img/error.png)
+![Error Toast](/static/img/error.png)
 - Used for error messages
 - Red color scheme
 - Includes an X icon
 
 ### Info Toast
-![Info Toast](/img/info.png)
+![Info Toast](/static/img/info.png)
 - Used for informational messages
 - Blue color scheme
 - Includes an information icon
 
 ### Warning Toast
-![Warning Toast](/img/warning.png)
+![Warning Toast](/static/img/warning.png)
 - Used for warning messages
 - Yellow color scheme
 - Includes an exclamation icon
@@ -144,7 +144,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    './node_modules/toast-notifications-library/**/*.{js,ts,jsx,tsx}'  // Add this line
+    './node_modules/oasis-toast/**/*.{js,ts,jsx,tsx}'  // Add this line
   ],
   theme: {
     extend: {
@@ -159,7 +159,7 @@ export default {
 }
 ```
 
-> **Note**: It's essential to add the path `./node_modules/toast-notifications-library/**/*.{js,ts,jsx,tsx}` to ensure that TailwindCSS scans the library's components and applies styles properly.
+> **Note**: It's essential to add the path `./node_modules/oasis-toast/**/*.{js,ts,jsx,tsx}` to ensure that TailwindCSS scans the library's components and applies styles properly.
 
 ## Customization
 
