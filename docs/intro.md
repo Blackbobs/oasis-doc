@@ -1,3 +1,9 @@
+---
+id: introduction
+title: Introduction
+sidebar_position: 1   
+---
+
 # Oasis Notifications Library
 
 A lightweight, customizable toast notifications system for React applications.

@@ -1,3 +1,9 @@
+---
+id: installation
+title: Installation
+sidebar_position: 2   
+---
+
 ## Installation
 
 To use the Oasis Notifications system in your React application, install the library using npm:
